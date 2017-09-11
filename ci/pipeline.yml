@@ -54,7 +54,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
-    space: sandbox
+    space: {{cf-space}}
     skip_cert_check: true
 
 
