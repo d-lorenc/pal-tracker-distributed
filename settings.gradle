@@ -7,6 +7,7 @@ include "applications:timesheets-server"
 
 include "platform-services:eureka-server"
 include "platform-services:oauth-server"
+include "platform-services:zipkin-server"
 
 include "components:accounts"
 include "components:allocations"

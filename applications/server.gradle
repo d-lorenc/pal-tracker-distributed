@@ -19,6 +19,10 @@ dependencies {
 
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.cloud:spring-cloud-starter-oauth2"
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth"
+    compile "org.springframework.cloud:spring-cloud-sleuth-stream"
+    compile "org.springframework.cloud:spring-cloud-starter-stream-rabbit"
+
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
     compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
